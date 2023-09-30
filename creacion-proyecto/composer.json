@@ -1,0 +1,24 @@
+{
+    "name": "santiari/creacion-proyecto",
+    "description": "composer example",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4@dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Santiari\\CreacionProyecto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "5arSanti",
+            "email": "santiari05@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
